@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stringInterpolation';
+
+  dynamic:string="Nirmit";
+
+  myMethod(){
+    return "My Name is " + this.dynamic;
+  }
+
+  appstatus:boolean = true;
+
+  status1:string = "Online"
+  status2:string = "Offline"
 }
